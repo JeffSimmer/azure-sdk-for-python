@@ -3,6 +3,7 @@
     "version": "0.2.0",
     "autorest": "latest",
     "autorest_options": {
+      "use": "@microsoft.azure/autorest.python@preview",
       "license-header": "MICROSOFT_MIT_NO_VERSION",
       "payload-flattening-threshold": 2,
       "python": "",
@@ -194,7 +195,7 @@
       "markdown": "specification/dns/resource-manager/readme.md",
       "autorest_options": {
         "namespace": "azure.mgmt.dns",
-        "package-version": "1.0.1"
+        "package-version": "1.1.0"
       },
       "output_dir": "azure-mgmt-dns/azure/mgmt/dns",
       "build_dir": "azure-mgmt-dns"
@@ -239,7 +240,7 @@
       "markdown": "specification/iothub/resource-manager/readme.md",
       "autorest_options": {
         "namespace": "azure.mgmt.iothub",
-        "package-version": "0.3.0"
+        "package-version": "0.4.0"
       },
       "output_dir": "azure-mgmt-iothub/azure/mgmt/iothub",
       "build_dir": "azure-mgmt-iothub"
